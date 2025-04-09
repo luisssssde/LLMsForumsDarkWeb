@@ -15,43 +15,43 @@ Installation
 
 To run the scripts in this repository, you need to have Python installed on your machine. Additionally, you will need to install the required libraries. You can do this using pip:
 
-bash
+    bash
 
-pip install pandas openai scikit-learn gensim nltk
+    pip install pandas openai scikit-learn gensim nltk
 
 Make sure to download the NLTK resources by running the following commands in a Python shell:
 
-python
+    python
 
-import nltk
+    import nltk
 
-nltk.download('punkt')
+    nltk.download('punkt')
 
-nltk.download('stopwords')
+    nltk.download('stopwords')
 
 
 Usage
 
-    Data Preparation: Place your text files in the appropriate directories (data/Questions/onion1, data/Questions/onion2, data/Questions/onion3) as specified in the scripts.
+Data Preparation: Place your text files in the appropriate directories (data/Questions/onion1, data/Questions/onion2, data/Questions/onion3) as specified in the scripts.
 
-    Run the Cleaning Scripts: Execute the cleaning scripts to process the text files and save the cleaned data to Excel files.
+Run the Cleaning Scripts: Execute the cleaning scripts to process the text files and save the cleaned data to Excel files.
 
     bash
 
-python 1extract_onion1.py
-
-python 1extract_onion2.py
-
-python 1extract_onion3.py
+    python 1extract_onion1.py
+    
+    python 1extract_onion2.py
+    
+    python 1extract_onion3.py
 
 Topic Modeling: After cleaning, you can run the topic modeling scripts to extract topics from the cleaned text.
 
-bash
-
-python 2TopicsSkLearn_EN.py
-
-python 2TopicsGensim_EN.py
-
+    bash
+    
+    python 2TopicsSkLearn_EN.py
+    
+    python 2TopicsGensim_EN.py
+    
     python 2topicModeling_GPT.py
 
 
