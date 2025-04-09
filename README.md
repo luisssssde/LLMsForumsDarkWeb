@@ -1,5 +1,7 @@
 Overview
 
+Please cite this paper: de-Marcos & Domínguez-Diaz (2025). LLM-Based Topic Modeling for Dark Web Q&A forums: A Comparative Analysis with Traditional Methods. IEEE Access.
+
 This repository contains a set of Python scripts designed to process and analyze text data extracted from various sources, specifically focusing on forum posts from the dark web. The scripts perform cleaning, topic modeling, and keyword extraction using different methodologies, including TF-IDF, Gensim's LDA, and OpenAI's GPT.
 Table of Contents
 
