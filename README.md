@@ -3,6 +3,7 @@ Overview
 Please cite these papers: 
 (1) L. de-Marcos and A. Domínguez-Díaz, "LLM-Based Topic Modeling for Dark Web Q&A Forums: A Comparative Analysis With Traditional Methods," in IEEE Access, vol. 13, pp. 67159-67169, 2025, doi: 10.1109/ACCESS.2025.3560543
 (2) L. De-Marcos, A. Domínguez-Díaz and Z. Stapic, "What’s Going On in Dark Web Question and Answer Forums: Topic Diversity and Linguistic Characteristics," in IEEE Access, vol. 13, pp. 149880-149890, 2025, doi: 10.1109/ACCESS.2025.3597975.
+(3) L. de-Marcos, M. Ferrer-Oliva, A. Ruiz-Zambrano, A. Domínguez-Díaz, J. Fernández-López and J.A. Medina-Merodio, "LLM-Guided Classification and Extension of the MISP Taxonomy for Dark Web Q&A Forums," in IEEE Access, doi: 10.1109/ACCESS.2026.3682868.
 
 This repository contains a set of Python scripts designed to process and analyze text data extracted from various sources, specifically focusing on forum posts from the dark web. The scripts perform cleaning, topic modeling, and keyword extraction using different methodologies, including TF-IDF, Gensim's LDA, and OpenAI's GPT.
 Table of Contents
